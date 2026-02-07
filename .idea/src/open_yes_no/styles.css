@@ -15,12 +15,11 @@ body{
     text-align: center;
     margin: 0;
     padding: 75px 0;
-    background-color: #f9f9f9;
+    background-color: #fdbfca;
 }
 /*====font====*/
 body {
-    font-family: "Cinzel Decorative", serif;
-}
+    font-family: "Playpen Sans", cursive;}
 /*====font====*/
 
 .container{
@@ -37,17 +36,18 @@ body {
     margin: 0 auto 20px;
 
 
+
     padding: 10px;
     border-radius: 20px;
-    background: #9da831;
-    box-shadow: 0 10px 30px rgb(88, 110, 19);
+    background: rgba(132, 143, 31, 0.67);
+    box-shadow: 0 10px 30px rgba(243, 121, 135, 0.87);
 
     animation: float 3s ease-in-out infinite;
 }
 
 @keyframes float {
     0% { transform: translateY(0); }
-    50% { transform: translateY(-6px); }
+    50% { transform: translateY(10px); }
     100% { transform: translateY(0); }
 }
 
@@ -56,7 +56,7 @@ H1{
     margin: 30px auto 40px;
     max-width: 800px;
     text-align: center;
-    color: #b34b3e;
+    color: rgba(161, 50, 36, 0.82);
 }
 .btn-container{
     display: flex;
@@ -85,7 +85,7 @@ color: #ffffff;
     color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
-    background-image: linear-gradient(to right, #14971f 0%, #014001 51%, #045a04 100%);
+    background-image: linear-gradient(to right, #839654 0%, #567109 51%, #59710f 100%);
 }
 #yes-btn:hover {
     background-position: right center;
@@ -93,7 +93,7 @@ color: #ffffff;
 #no-btn{
     color: whitesmoke;
     transition:.2s linear;
-    background: rgba(110, 3, 16, 0.74);
+    background: rgba(110, 3, 16, 0.73);
 }
 #no-btn:hover {
     -webkit-transform: rotateZ(5deg);
